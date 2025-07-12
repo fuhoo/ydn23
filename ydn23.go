@@ -32,8 +32,6 @@ const (
 	ErrOtherError     ydn23Err = "other error, user-defined error"
 )
 
-const ()
-
 type ydn23Err string
 
 func (err ydn23Err) Error() string {
