@@ -125,7 +125,7 @@ fmt.Printf("响应帧: % X\n", responseFrame)
 | 0x04 | CID2无效 |
 | 0x05 | 命令格式错误 |
 | 0x06 | 数据无效 |
-| 0x07 | ASC码错误 |
+| 0x80~EF | 其它错误 |
 
 ## 测试
 
